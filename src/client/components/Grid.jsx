@@ -32,7 +32,7 @@ export default class Grid extends Component {
 
     render() {
         let ProductRows = []
-console.log(this.state.products, this.state.products.length)
+
         if (this.state.products.length) {
             ProductRows = this.state.products.map((el) => {
                 return <tr key={el.id}>
